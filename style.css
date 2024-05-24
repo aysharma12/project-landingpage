@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+/* The following section is for the header */
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+}
+
+.header-logo-link {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.list-links {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.navs {
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navs:hover {
+    color: #4e8ddc;
+}
+
+/* Next few lines are for the welcome section */
+
+.welcome {
+    height: 24vh;
+    border: 1px solid red;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-info {
+    border: 1px solid red;
+    width: 40%;
+    padding: 18px;
+    color: #f9faf8;
+}
+
+.welcome-img {
+    border: 1px solid red;
+    width: 40%;
+}
+
+.welcome-h1 {
+    font-size: 48px;
+}
+
+.welcome-p {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.welcome-btn {
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+/* This next part is for the random section */
+
+.random-info {
+    height: 24vh;
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    padding: 32px;
+    font-size: 20px;
+}
+
+.info-boxes {
+    display: flex;
+    width: 50%;
+    gap: 24px;
+}
+
+.info-img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.info-subtext {
+    text-align: center;
+}
+
+/* this next part is for the quote section */
+
+.quote {
+    height: 24vh;
+    background-color: #E5E7EB;
+}
+
+/* this next part is for the sign-up part */
+
+.sign-up {
+    height: 18vh;
+    background-color: #f9faf8;
+}
